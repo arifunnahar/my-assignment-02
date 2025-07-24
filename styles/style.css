@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Noto Serif", serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #f5f8ff;
+}
+
+/* nav section */
+
+nav {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  margin-top: 40px;
+  padding-left: 5px;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 10px;
+  margin-top: 60px;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: #000000;
+}
+.home {
+  font-weight: 700;
+  font-size: rem;
+  color: #000000;
+}
+
+.add-to-cart {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.shop .about {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #8987a1;
+}
+
+/* banner section */
+
+.banner {
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 80px;
+}
+
+.banner-left h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #000000;
+  padding-left: 10px;
+}
+
+.banner-title-color {
+  color: #e95a08;
+}
+
+.banner-left p {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* card section */
+
+.paragraph-font{
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.card-section {
+  text-align: center;
+  margin-top: 90px;
+}
+
+
+.card-section h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.card-section h2 span{
+    color:#e95a08
+}
+
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: px;
+}
+
+.card {
+  width: 270px;
+  margin-top: 40px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.card span {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.card-button {
+  width: 270px;
+  padding: 10px 15px;
+  background-color: #e95a08;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+
+  border: none;
+  margin-top: 20px;
+}
