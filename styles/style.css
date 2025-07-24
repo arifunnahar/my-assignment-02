@@ -151,14 +151,30 @@ nav img {
 
 
 
-.flower-store-container {
-  
+.flower-store-parent-container {
+ 
   display: flex;
   justify-content: space-between;
-  margin-top: 110px;
+  margin-top: 130px;
 }
 
-.flower-store-image img {
+.flower-store-img-parent{
+  position: relative;
+}
+
+.flower-store-img-parent .badge{
+  width:250px;
+  height: 250px;
+  position:absolute ;
+  top:-90px;
+  right:-90px;
+
+}
+
+
+
+
+.flower-store-img-parent img {
   width: 100%;
   max-width: 520px;
   height: 597px;
@@ -186,7 +202,9 @@ nav img {
 
 /* latest deal section */
 
+
 .latest-deal-section {
+ 
   text-align: center;
   margin-top: 80px;
 }
@@ -212,21 +230,58 @@ nav img {
 .card1 {
   background-image: url("../assets/deal-bloom.png");
   background-size: cover;
+  border-radius: 10px;
 }
 
 .card2 {
   background-image: url("../assets/deal-bloom.png");
   background-size: cover;
   grid-row: span 2;
+  border-radius: 15px;
 }
 
 .card3 {
   background-image: url("../assets/deal-ana.png");
   background-size: cover;
+  border-radius: 10px;
 }
 
-.deal-card h1,
-a {
-  color: white;
+
+.deal-card{
+  display: flex;
+ 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
+
+
+.latest-deal-cards h1, a{
+  color:white;
+}
+
+.card1 h1, .card3 h1{
+  font-size: 1.3rem;
+  font-weight: 700;
+
+}
+
+
+.card1 a, .card3 a{
+  font-size: 1rem;
+  font-weight: 600;
+
+}
+
+
+.card2 h1{
+ font-size: 2.5rem;
+ font-weight: 700;
+}
+
+.card2 a{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
