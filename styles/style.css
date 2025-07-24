@@ -1,5 +1,3 @@
-
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -20,7 +18,6 @@ body {
 /* nav section */
 
 nav {
- 
   display: flex;
   justify-content: space-between;
 }
@@ -33,9 +30,9 @@ nav img {
 .nav-items {
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 25px;
   padding: 10px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .nav-items li a {
@@ -56,13 +53,12 @@ nav img {
 .shop .about {
   font-weight: 400;
   font-size: 1rem;
-  color: #8987a1;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /* banner section */
 
 .banner {
-  background-color: bisque;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -91,35 +87,31 @@ nav img {
 
 /* card section */
 
-.paragraph-font{
+.paragraph-font {
   font-size: 1.3rem;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.5);
 }
-
-
 
 .card-section {
   text-align: center;
   margin-top: 90px;
 }
 
-
-.card-section h2{
-    font-size: 50px;
-    font-weight: 700;
+.card-section h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
-.card-section h2 span{
-    color:#e95a08
+.card-section h2 span {
+  color: #e95a08;
 }
-
 
 .card-container {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-  padding: px;
 }
 
 .card {
@@ -154,3 +146,87 @@ nav img {
   border: none;
   margin-top: 20px;
 }
+
+/* flower and plants section */
+
+
+
+.flower-store-container {
+  
+  display: flex;
+  justify-content: space-between;
+  margin-top: 110px;
+}
+
+.flower-store-image img {
+  width: 100%;
+  max-width: 520px;
+  height: 597px;
+}
+
+.store-details {
+  width: 540px;
+  height: 521px;
+}
+
+.store-title {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.store-details li {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+
+  margin-left: 35px;
+}
+
+/* latest deal section */
+
+.latest-deal-section {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.latest-deal-section h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.latest-deal-section h1 span {
+  color: #e95a08;
+}
+
+.latest-deal-cards {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: repeat(2, 220px);
+  margin-top: 50px;
+}
+
+.card1 {
+  background-image: url("../assets/deal-bloom.png");
+  background-size: cover;
+}
+
+.card2 {
+  background-image: url("../assets/deal-bloom.png");
+  background-size: cover;
+  grid-row: span 2;
+}
+
+.card3 {
+  background-image: url("../assets/deal-ana.png");
+  background-size: cover;
+}
+
+.deal-card h1,
+a {
+  color: white;
+}
+
