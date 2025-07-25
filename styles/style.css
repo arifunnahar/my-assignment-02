@@ -82,7 +82,7 @@ nav img {
 }
 
 .banner-left h1 {
-  font-size: 3.5rem;
+  font-size: 55px;
   font-weight: 700;
   color: #000000;
   padding-left: 10px;
@@ -95,7 +95,7 @@ nav img {
 .banner-left p {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 20px;
   padding-left: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -104,7 +104,7 @@ nav img {
 /* card section */
 
 .paragraph-font {
-  font-size: 1.3rem;
+  font-size: 20px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -114,13 +114,13 @@ nav img {
   margin-top: 90px;
 }
 
-.card-section h2 {
+.card-section h1 {
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.card-section h2 span {
+.card-section h1 span {
   color: #e95a08;
 }
 
@@ -140,14 +140,14 @@ nav img {
 }
 
 .card h3 {
-  font-size: 1.4rem;
+  font-size: 22px;
   font-weight: 500;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .card span {
-  font-size: 1.4rem;
+  font-size: 22px;
   font-weight: 700;
 }
 
@@ -156,7 +156,7 @@ nav img {
   padding: 10px 15px;
   background-color: #e95a08;
   color: white;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 600;
 
   border: none;
@@ -203,7 +203,7 @@ nav img {
 }
 
 .store-details li {
-  font-size: 1.3rem;
+  font-size: 20px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.5);
 
@@ -269,23 +269,23 @@ a {
 
 .card1 h1,
 .card3 h1 {
-  font-size: 1.3rem;
+  font-size: 20px;
   font-weight: 700;
 }
 
 .card1 a,
 .card3 a {
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 600;
 }
 
 .card2 h1 {
-  font-size: 2.5rem;
+  font-size: 40px;
   font-weight: 700;
 }
 
 .card2 a {
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -401,3 +401,220 @@ a {
   width: 34px;
   height: 34px;
 }
+
+
+
+/* responsive for mobile device */
+
+@media screen and (max-width: 576px){
+
+/* header */
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 18px;
+}
+
+.menu{
+  display: none;
+}
+
+
+nav{
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+ 
+/* banner */
+
+.banner{
+
+  margin-top: 150px;
+  gap:26px;
+  flex-direction: column-reverse;
+}
+
+.banner-left h1{
+ font-size: 36px;
+ margin-left: 10px;
+}
+
+.banner-left p{
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.banner-right img{
+width: 100%;
+
+}
+
+
+/* our plants */
+
+
+.card-section h1{
+  font-size: 36px;
+}
+
+.card-section p{
+  font-size: 18px;
+}
+
+
+/* card section */
+
+
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card{
+  width:150px;
+  margin-left: 30px;
+}
+
+.card-button{
+  width:150px;
+ 
+}
+
+
+
+/* flower and plants lover section */
+
+.image-1{
+  width: 100%
+}
+.badge{
+  display: none;
+}
+
+.flower-store-parent-container{
+  flex-direction: column;
+}
+
+.store-details h1{
+  font-size: 36px;
+  margin-left: 10px;
+}
+
+
+.store-details ul li{
+  font-size: 18px;
+  margin-left: 10px;
+  margin-left: 25px;
+}
+
+
+/* Latest deal section */
+
+
+.latest-deal-cards{
+  display: flex;
+  flex-direction: column;
+}
+
+.deal-card{
+  height: 200px;
+  line-height: 30px;
+}
+
+.latest-deal-cards .card1 h1{
+  font-size: 28px;
+  font-weight: 700;
+ 
+}
+
+.latest-deal-cards .card1 a{
+  font-size: 18px;
+  font-weight: 600;
+  
+}
+
+.latest-deal-cards .card3 h1{
+     font-size: 28px;
+  font-weight: 700;
+
+}
+
+.latest-deal-cards .card3 a{
+   font-size: 18px;
+  font-weight: 600;
+  
+
+}
+
+
+.latest-deal-cards .card2 h1{
+     font-size: 28px;
+  font-weight: 700;
+
+}
+
+
+.latest-deal-cards .card2 a{
+   font-size: 18px;
+  font-weight: 600;
+
+}
+
+
+
+/* subscribe */
+
+
+.subscribe-section{
+  width:100%;
+  height:280px;
+  background-position: center;
+  background-size: 700px;
+  padding-left: 10px;
+}
+
+.subscribe h1{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.sub-email input{
+  width:80%;
+}
+
+
+
+/* footer section */
+
+.footer-parent{
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 40px;
+}
+
+.link-section ul {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.social-link-section{
+  align-items: center;
+  margin-top: 40px;
+  margin-right: 120px;
+ 
+}
+
+
+
+
+}
+  
+
+
+
+
