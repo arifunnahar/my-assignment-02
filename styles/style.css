@@ -259,12 +259,25 @@ nav img {
 }
 
 .deal-card {
+  position: relative;
   display: flex;
-
   flex-direction: column;
   justify-content: center;
   align-items: center;
+   z-index: 1;
 }
+.deal-card::before{
+    position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.35;
+  z-index: -1;
+}
+
 
 .latest-deal-cards h1,
 a {
@@ -405,6 +418,9 @@ a {
   width: 34px;
   height: 34px;
 }
+
+
+
 
 /* responsive for mobile device */
 
