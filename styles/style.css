@@ -31,7 +31,7 @@ nav {
 }
 
 nav img {
-  margin-top: 30px;
+  margin-top: 0px;
   padding-left: 6px;
 }
 
@@ -39,7 +39,7 @@ nav img {
   display: flex;
   list-style: none;
   gap: 20px;
-  margin-top: 40px;
+  margin-top: 10px;
   padding-right: 10px;
 }
 
@@ -48,7 +48,7 @@ nav img {
 }
 
 .add-to-cart {
-  margin-top: 40px;
+  margin-top: 10px;
   padding-right: 10px;
 }
 
