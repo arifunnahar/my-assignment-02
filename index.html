@@ -15,6 +15,7 @@
     <title>Flower Shop</title>
 
     <link rel="stylesheet" href="styles/style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -28,19 +29,23 @@
         <figure>
           <img src="./assets/logo.png" alt="" />
         </figure>
-
-        <ul class="nav-items">
-          <li class="home"><a href="">Home</a></li>
-          <li class="shop shop-font"><a href="">Shop</a></li>
-          <li class="about about-font"><a href="">About us</a></li>
-
-          <li class="add-to-cart">
+        <div class="nav-items">
+              <div class="menu">
+                  <li><a href="" class="home">Home</a></li>
+                  <li><a href="" class="shop">Shop</a></li>
+                  <li><a href="" class="about-us">About us</a></li>
+                </ul>
+              </div>
+          <div class="add-to-cart">
             <a href=""><i class="fa-solid fa-cart-shopping"></i>   Cart($56) </a> 
-            </li>
-        </ul>
+          </div>
+        
+        </div>
       </nav>
     </header>
+    
     <!-- banner section -->
+    
     <main>
       <section class="banner-section container">
         <div class="banner">
@@ -193,7 +198,62 @@
 
           </div>
     </section>
+
+<!-- subscribe section -->
+
+    <section class="subscribe-section">
+      <div class="subscribe">
+        <h1>Join the colorful Bunch</h1>
+
+          <div class="sub-email">
+            <input type="text" placeholder="Write email"/>
+            <button class="email-btn">Subscribe</button>
+          </div>
+      </div>
+
+  </section>
+
+  <!-- footer section -->
     
+  <section class="footer-section ">
+    
+    <footer class="footer-parent container">
+      
+      <div class="footer-column footer-title">
+        <img src="./assets/logo.png" alt="">
+        <p class="paragraph-font">Indulge your senses with the <br> beauty and fragrance of our fresh flower shop. </p>
+      </div>
+      
+      <div class="footer-column link-section">
+        
+          <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Blog</li>
+          <li>FAQ</li>
+          <li>Contact Us</li>
+      </ul>
+      
+      <ul>
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Privacy Policy</li>
+        <li>Terms of Service</li>
+        <li>Help Center</li>
+    </ul>
+    
+</div>
+
+<div class="footer-column social-link-section">
+    <img src="./assets/icon-linkedin.png" alt="">
+    <img src="./assets/icon-twitter.png" alt="">
+    <img src="./assets/icon-facebook.png" alt="">
+    <img src="./assets/icon-youtube.png" alt="">
+</div>
+
+
+    </footer>
+  </section>
     
     </main>
   </body>
