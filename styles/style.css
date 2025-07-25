@@ -264,10 +264,10 @@ nav img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-   z-index: 1;
+  z-index: 1;
 }
-.deal-card::before{
-    position: absolute;
+.deal-card::before {
+  position: absolute;
   content: "";
   left: 0;
   right: 0;
@@ -277,7 +277,6 @@ nav img {
   opacity: 0.35;
   z-index: -1;
 }
-
 
 .latest-deal-cards h1,
 a {
@@ -419,15 +418,7 @@ a {
   height: 34px;
 }
 
-
-
-
 /* responsive for mobile device */
-
- 
-
-
-
 
 @media screen and (max-width: 576px) {
   /* container */
@@ -435,6 +426,10 @@ a {
     width: 100%;
     margin: auto;
     padding: 15px;
+  }
+
+  body {
+    overflow-x: hidden;
   }
 
   /* header nav */
@@ -458,7 +453,9 @@ a {
 
   .banner-left h1 {
     font-size: 30px;
-    margin: 0 10px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .banner-left p {
@@ -471,6 +468,7 @@ a {
   }
 
   /* card section */
+
   .card-section h1 {
     font-size: 28px;
   }
@@ -500,6 +498,7 @@ a {
   }
 
   /* image section (flower and plant lovers) */
+
   .image-1 {
     width: 300px;
   }
@@ -516,7 +515,8 @@ a {
 
   .store-details h1 {
     font-size: 28px;
-    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .store-details ul li {
@@ -526,8 +526,9 @@ a {
 
   /* latest deal */
 
-
-
+  .latest-deal-section h1 {
+    font-size: 35px;
+  }
 
   .latest-deal-cards {
     display: flex;
@@ -569,8 +570,7 @@ a {
     font-weight: 600;
   }
 
-
-/* subscribe section */
+  /* subscribe section */
 
   .subscribe-section {
     width: 100%;
@@ -611,23 +611,25 @@ a {
     border-radius: 0 5px 5px 0;
   }
 
-  /* footer */
+  /* footer section*/
+
   .footer-parent {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 10px;
     padding: 0 20px;
-    text-align: center;
+    text-align: left;
   }
 
   .footer-column {
     margin-bottom: 20px;
+    text-align: left;
   }
 
   .link-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
   }
 
@@ -635,6 +637,7 @@ a {
     padding: 0;
     margin: 0;
     list-style: none;
+    text-align: left;
   }
 
   .link-section li {
@@ -642,8 +645,9 @@ a {
   }
 
   .social-link-section {
-    justify-content: center;
-    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
     gap: 16px;
   }
 
