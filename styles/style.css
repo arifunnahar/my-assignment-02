@@ -255,7 +255,7 @@ nav img {
 .card3 {
   background-image: url("../assets/deal-ana.png");
   background-size: cover;
-  border-radius: 10px;
+  border-radius: 10ppx;
 }
 
 .deal-card {
@@ -447,8 +447,7 @@ a {
     margin-top: 100px;
     gap: 20px;
     flex-direction: column-reverse;
-    align-items: center;
-    text-align: center;
+    
   }
 
   .banner-left h1 {
@@ -460,7 +459,7 @@ a {
 
   .banner-left p {
     font-size: 16px;
-    margin: 0 10px;
+   
   }
 
   .banner-right img {
@@ -509,19 +508,19 @@ a {
 
   .flower-store-parent-container {
     flex-direction: column;
-    text-align: center;
-    align-items: center;
+   
   }
 
   .store-details h1 {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 20px;
+   
   }
 
   .store-details ul li {
     font-size: 16px;
-    margin-left: 0;
+    margin-left: 20px;
   }
 
   /* latest deal */
